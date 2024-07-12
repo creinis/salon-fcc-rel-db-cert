@@ -31,15 +31,10 @@ The `salon.sh` script serves as the command-line interface to interact with the 
 - Creating new customer records and managing customer appointments.
 - Inserting and querying appointment details based on customer preferences.
 
-### Authentication and Security
-
-The system includes basic authentication via Bash script for accessing management features. Passwords are hashed using secure methods to ensure data integrity and user privacy.
-
 #### Benefits of Using Bash and PostgreSQL
 
 - **Ease of Use:** Utilizes familiar command-line interfaces for quick database interactions.
 - **Reliability:** PostgreSQL ensures robust data management and relational capabilities.
-- **Security:** Implements secure password hashing and basic authentication for controlled access.
 
 ## How to Use
 
@@ -71,11 +66,6 @@ The system includes basic authentication via Bash script for accessing managemen
   
 - **Customer and Appointment Management**:
   - Create new customer records, view available services, and schedule appointments.
-
-## Technologies Used
-
-- **PostgreSQL**: Reliable and efficient database management.
-- **Bash Scripting**: Command-line interface for easy database interactions.
 
 ---
 #### This is a FreeCodeCamp Challenge for Relational Database Projects Certification
